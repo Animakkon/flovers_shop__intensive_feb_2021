@@ -6,4 +6,17 @@ html(lang="en")
         link(rel="stylesheet", href="css/bootstrap-grid.min.css")
         link(rel="stylesheet", href="css/style.css")
     body
-        h1 Hello, world!
+        header.header-logo
+            .container
+                .row
+                    .col-md-3
+                        a(href="http://"): img(src="img/logo.png", alt="logo")
+                    .col-md-6
+                        span.header-description Интернет-магазин 
+                            | <br> цветов с доставкой 
+                            | <br> по всей 
+                            span.text-color-red России
+                    .col-md-3
+                        a(href="tel:+78006548745").header-phone 8 (800) 654-87-45
+                        span.header-info Звонок по России бесплатный
+                        a(href="tel:+78006548745").callback Заказать звонок
